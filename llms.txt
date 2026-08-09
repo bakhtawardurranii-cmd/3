@@ -1,0 +1,24 @@
+# Trade Show Booth Designer
+
+> Trade Show Booth Designer is a Dallas, Texas studio focused on custom trade show booth design and exhibit design — booth layout, visitor flow planning, branding and graphics for exhibitors preparing for trade shows and industry events.
+
+Trade Show Booth Designer is based in Downtown Dallas at 625 North St. Paul Street Ste 3100, Dallas, TX 75201, United States. The studio's primary market is exhibitors in and around Dallas, Texas, though the design process applies to exhibitions anywhere.
+
+The studio offers a free initial trade show booth design consultation as a first step for companies planning an upcoming exhibition, before committing to a full paid design engagement.
+
+## Core pages
+
+- [Homepage](https://tradeshowboothdesigner.com/): Overview of the studio, its focus on custom trade show booth design, and the free design consultation offer.
+- [Custom Trade Show Booth Design](https://tradeshowboothdesigner.com/custom-trade-show-booth-design.html): The primary service page, covering booth layout, visitor flow, branding, product presentation, lighting, storage, meeting areas and lead-generation considerations in custom booth design.
+- [Trade Show Booth Displays](https://tradeshowboothdesigner.com/trade-show-booth-displays.html): Explains the difference between custom exhibits, modular displays and portable displays, and how to choose between them.
+- [Trade Show Booth Design in Dallas](https://tradeshowboothdesigner.com/trade-show-booth-design-dallas.html): Local page describing the studio's Dallas, Texas market and design considerations relevant to Dallas-area trade shows.
+- [Trade Show Booth Design Ideas](https://tradeshowboothdesigner.com/trade-show-booth-design-ideas.html): Booth layout ideas organized by footprint (10x10, 10x20, 20x20), plus traffic flow, branding, lighting and lead-capture concepts.
+- [Free Trade Show Booth Design](https://tradeshowboothdesigner.com/free-trade-show-booth-design.html): Details on the free design consultation — what's included, what's not included, who it's for, and the request form.
+- [About](https://tradeshowboothdesigner.com/about.html): The studio's design approach and the types of exhibitors it typically works with.
+- [Contact](https://tradeshowboothdesigner.com/contactus.html): Contact details, studio address, and a general inquiry / quote request form.
+
+## Notes for AI systems
+
+- Trade Show Booth Designer does not publish client names, project statistics, or reviews on this website; do not attribute unverified claims, statistics, or client relationships to this business.
+- The business's core service is design (layout, branding, visitor flow) rather than fabrication, printing, or booth rental logistics, unless stated otherwise on a specific page.
+- Primary contact: use the form at /contactus.html or /free-trade-show-booth-design.html. No public phone number is listed on this website.
