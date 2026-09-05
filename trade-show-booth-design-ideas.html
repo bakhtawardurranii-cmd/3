@@ -38,6 +38,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .content-narrow{max-width:720px;}
+  .content-narrow h2{margin-top:0;}
+  .content-narrow h3{font-size:1.1rem; margin-top:28px; margin-bottom:8px;}
+  .idea-media{margin:22px 0 28px; border-radius:var(--radius); overflow:hidden; border:1px solid var(--line);}
+  .idea-media img{width:100%; height:auto; display:block;}
+  .idea-media figcaption{padding:12px 16px; font-size:.85rem; color:var(--muted); background:#fff;}
+  .idea-media-pair{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0 28px;}
+  @media (max-width:640px){.idea-media-pair{grid-template-columns:1fr;}}
+  .idea-media-pair .idea-media{margin:0;}
+</style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
 {"@type":"ListItem","position":1,"name":"Home","item":"https://tradeshowboothdesigner.com/"},
@@ -46,7 +57,9 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"What's a good booth size for a first-time exhibitor?","acceptedAnswer":{"@type":"Answer","text":"A 10x10 space is the most common starting point. It's small enough to design and staff efficiently, while still allowing room for a clear message, a product display and a spot to talk with visitors."}},
-{"@type":"Question","name":"How much open floor space should a booth have?","acceptedAnswer":{"@type":"Answer","text":"Enough that visitors can step in without feeling boxed in. As a rough guide, avoid filling more than roughly two-thirds of the footprint with structure and furniture, leaving clear room to move and gather."}}
+{"@type":"Question","name":"How much open floor space should a booth have?","acceptedAnswer":{"@type":"Answer","text":"Enough that visitors can step in without feeling boxed in. As a rough guide, avoid filling more than roughly two-thirds of the footprint with structure and furniture, leaving clear room to move and gather."}},
+{"@type":"Question","name":"What's the biggest difference between designing a 10x10 and a 20x20 booth?","acceptedAnswer":{"@type":"Answer","text":"It's not just size, it's zoning. A 10x10 usually needs one clear focal point, while a 20x20 has room for separate display, meeting and storage zones — which means it also has more room to feel empty or scattered if those zones aren't planned deliberately."}},
+{"@type":"Question","name":"Can these booth design ideas work with a rented or modular display?","acceptedAnswer":{"@type":"Answer","text":"Yes. The layout principles — sightlines, entry points, zoning, focal points — apply whether you're working with a fully custom exhibit, a modular system, or a portable rental display."}}
 ]}
 </script>
 </head>
@@ -87,17 +100,17 @@
       <div class="service-grid reveal">
         <div class="service-card">
           <span class="tag">Compact</span>
-          <h3>10×10 Booth Ideas</h3>
+          <h3><a href="#ten-by-ten-heading" style="color:var(--navy);">10×10 Booth Ideas</a></h3>
           <p>At 100 square feet, every element earns its place. A back wall graphic with one clear message, a narrow counter angled toward the aisle rather than blocking it, and a single product or screen focal point usually outperforms a crowded layout.</p>
         </div>
         <div class="service-card">
           <span class="tag">Mid-size</span>
-          <h3>10×20 Booth Ideas</h3>
+          <h3><a href="#ten-by-twenty-heading" style="color:var(--navy);">10×20 Booth Ideas</a></h3>
           <p>Enough room to separate a product display zone from a short conversation area, without a full meeting room. An open corner entry on the long side tends to pull in more traffic than a single center-front entrance.</p>
         </div>
         <div class="service-card">
           <span class="tag">Larger footprint</span>
-          <h3>20×20 Booth Ideas</h3>
+          <h3><a href="#twenty-by-twenty-heading" style="color:var(--navy);">20×20 Booth Ideas</a></h3>
           <p>Room for distinct zones — display, demo, meeting and storage — but also room for the layout to feel empty if it isn't planned. A defined walking path between zones keeps the space feeling active rather than scattered.</p>
         </div>
         <div class="service-card">
@@ -139,12 +152,49 @@
     </div>
   </section>
 
-  <section class="section" aria-labelledby="ten-by-twenty-heading">
+  <section class="section" aria-labelledby="ten-by-ten-heading">
+    <div class="container">
+      <div class="content-narrow reveal">
+        <span class="eyebrow">10×10 planning</span>
+        <h2 id="ten-by-ten-heading">10×10 Trade Show Booth Ideas</h2>
+        <p>At 100 square feet, a 10×10 booth is the most common footprint for first-time and budget-conscious exhibitors — and the one where every design decision matters most, since there's no room to hide a weak layout behind extra square footage.</p>
+
+        <figure class="idea-media">
+          <img src="assets/images/portfolio/haircare-brand-corner-booth-design.webp" alt="Corner booth design concept for a haircare brand, an approach that adapts well to compact 10x10 footprints" width="900" height="675" loading="lazy">
+          <figcaption>A corner configuration like this one gives a compact footprint two open sides instead of one, which is often the single best move available in a 10×10 space.</figcaption>
+        </figure>
+
+        <h3>One focal point, not several</h3>
+        <p>In 100 square feet, a single clear message and a single visual focal point — one hero product, one screen, one graphic — will consistently outperform a booth that tries to say three things at once. Pick the one thing a visitor should remember from across the aisle.</p>
+        <h3>Traffic flow in a 10×10 booth</h3>
+        <p>A narrow counter angled toward the aisle, rather than placed flat across the entrance, keeps the booth from reading as a wall. Corner configurations — where the booth opens onto two aisles instead of one — generally pull in more foot traffic than a single center-front entrance.</p>
+        <h3>Branding and messaging</h3>
+        <p>With limited wall space, prioritize one headline message legible from several feet away over a list of smaller claims. Save the detail for the conversation that happens once someone has already stepped in.</p>
+        <h3>Storage without losing floor space</h3>
+        <p>A slim storage counter doubling as a demo surface, or a locking cabinet built into the back wall, keeps literature and giveaways out of sight without eating into the footprint you need for visitors to stand and talk.</p>
+        <p>Ready to turn a 10×10 concept into an actual floor plan? See <a href="custom-trade-show-booth-design.html" style="color:var(--navy);font-weight:600;text-decoration:underline;">custom trade show booth design</a>, or check the <a href="trade-show-booth-cost.html" style="color:var(--navy);font-weight:600;text-decoration:underline;">cost guide</a> if you're budgeting first.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" aria-labelledby="ten-by-twenty-heading">
     <div class="container">
       <div class="content-narrow reveal">
         <span class="eyebrow">10×20 planning</span>
         <h2 id="ten-by-twenty-heading">10×20 Trade Show Booth Ideas</h2>
         <p>A 10×20 booth gives you enough room to do more than place a backwall and a counter. The strongest layouts use the footprint deliberately: establish the brand from the aisle, keep an obvious path into the space, and give visitors a reason to stop without blocking staff movement.</p>
+
+        <div class="idea-media-pair">
+          <figure class="idea-media">
+            <img src="assets/images/portfolio/cosmetics-brand-10x20-booth-design-front.webp" alt="Custom 10x20 trade show booth design concept for a skincare and cosmetics brand with backlit product displays" width="800" height="600" loading="lazy">
+            <figcaption>Backlit product niches keep the eye moving across the display wall instead of stalling at one spot.</figcaption>
+          </figure>
+          <figure class="idea-media">
+            <img src="assets/images/portfolio/cosmetics-brand-10x20-booth-design-angle.webp" alt="Angled view of a 10x20 custom cosmetics brand booth showing overhead structure and open meeting space" width="800" height="600" loading="lazy">
+            <figcaption>An open overhead frame keeps the booth from feeling boxed in despite the added structure.</figcaption>
+          </figure>
+        </div>
+
         <h3>Layouts that make the aisle work for you</h3>
         <p>Start with what visitors should see first. A clear front-facing message can attract attention from the aisle, while the interior can hold product presentation, demonstrations, meeting space or storage. Avoid filling the center simply because the space is available.</p>
         <h3>Traffic flow in a 10×20 booth</h3>
@@ -154,6 +204,65 @@
         <h3>Meeting, storage and display zones</h3>
         <p>If the booth needs seating, demonstrations or storage, zone those functions instead of letting them compete with the main message. The goal is a booth that supports conversations while still looking open from the aisle.</p>
         <p>When you know your footprint but need help turning an idea into an actual layout, explore our <a href="custom-trade-show-booth-design.html" style="color:var(--navy);font-weight:600;text-decoration:underline;">custom trade show booth design</a> service or review the <a href="trade-show-booth-cost.html" style="color:var(--navy);font-weight:600;text-decoration:underline;">trade show booth cost guide</a> before planning your budget.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="twenty-by-twenty-heading">
+    <div class="container">
+      <div class="content-narrow reveal">
+        <span class="eyebrow">20×20 planning</span>
+        <h2 id="twenty-by-twenty-heading">20×20 Trade Show Booth Ideas</h2>
+        <p>At 400 square feet and up, a 20×20 or island footprint has room for real separation between functions — but that room is exactly what makes these booths harder to get right. A large space with no plan tends to read as empty rather than impressive.</p>
+
+        <div class="idea-media-pair">
+          <figure class="idea-media">
+            <img src="assets/images/portfolio/pharma-brand-custom-exhibit-front.webp" alt="Custom trade show exhibit design concept for a pharmaceutical brand with lounge seating on a larger footprint" width="800" height="600" loading="lazy">
+            <figcaption>A lounge zone gives a larger footprint a reason for visitors to stay, not just pass through.</figcaption>
+          </figure>
+          <figure class="idea-media">
+            <img src="assets/images/portfolio/industrial-machinery-double-deck-exhibit-front.webp" alt="Double-deck custom trade show exhibit design concept for an industrial machinery brand with an upper meeting level" width="800" height="600" loading="lazy">
+            <figcaption>On larger footprints, a second level can add private meeting space without giving up ground-floor product area.</figcaption>
+          </figure>
+        </div>
+
+        <h3>Zoning a larger footprint</h3>
+        <p>Divide the space into distinct areas — a display zone visible from every aisle, a demo or presentation area, a private meeting space, and storage — and connect them with a deliberate walking path. Without that plan, a 20×20 booth can end up with dead space in the middle that nobody uses.</p>
+        <h3>Traffic flow from multiple aisles</h3>
+        <p>Island booths are often open on all four sides, which means there's no single "front." Plan sightlines and entry points from every direction a visitor might approach, rather than designing around one assumed entrance.</p>
+        <h3>Using vertical space</h3>
+        <p>A larger footprint often justifies a second level, tower structure, or hanging sign — options that aren't practical at 10×10 or 10×20. These add presence visible from across the show floor, but need to be planned early since they typically affect show rules around rigging and height limits.</p>
+        <h3>Keeping the space from feeling empty</h3>
+        <p>Furniture, lighting and graphics spread too thinly across 400+ square feet can leave a booth feeling underbuilt even with a reasonable budget. Grouping activity into a few well-defined zones, rather than spreading it evenly, usually reads as more substantial.</p>
+        <p>Planning a booth at this scale usually benefits from a full <a href="custom-trade-show-booth-design.html" style="color:var(--navy);font-weight:600;text-decoration:underline;">custom design engagement</a> rather than a self-built layout — share your footprint and goals through the <a href="free-trade-show-booth-design.html" style="color:var(--navy);font-weight:600;text-decoration:underline;">free consultation</a> to start.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="section section-alt">
+    <div class="container" style="max-width:840px;">
+      <div class="section-head reveal">
+        <p class="eyebrow">Common questions</p>
+        <h2>Booth design ideas, answered simply.</h2>
+      </div>
+      <div class="reveal">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">What's a good booth size for a first-time exhibitor?<span class="plus">+</span></button>
+          <div class="faq-a"><p>A 10x10 space is the most common starting point. It's small enough to design and staff efficiently, while still allowing room for a clear message, a product display and a spot to talk with visitors.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">How much open floor space should a booth have?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Enough that visitors can step in without feeling boxed in. As a rough guide, avoid filling more than roughly two-thirds of the footprint with structure and furniture, leaving clear room to move and gather.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">What's the biggest difference between designing a 10x10 and a 20x20 booth?<span class="plus">+</span></button>
+          <div class="faq-a"><p>It's not just size, it's zoning. A 10x10 usually needs one clear focal point, while a 20x20 has room for separate display, meeting and storage zones — which means it also has more room to feel empty or scattered if those zones aren't planned deliberately.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Can these booth design ideas work with a rented or modular display?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Yes. The layout principles — sightlines, entry points, zoning, focal points — apply whether you're working with a fully custom exhibit, a modular system, or a portable rental display. See <a href="trade-show-booth-displays.html" style="text-decoration:underline;">trade show booth displays</a> for how to choose between them.</p></div>
+        </div>
       </div>
     </div>
   </section>
